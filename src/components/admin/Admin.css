@@ -1,0 +1,87 @@
+.admin-container {
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+  overflow: hidden;
+}
+
+.admin-navbar-container {
+  position: relative;
+  width: calc(100vw - 260px);
+  float: right;
+  top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.admin-sidebar-container {
+  width: 230px;
+  height: 100vh;
+  margin-top: 10px;
+  border-bottom: 10px;
+  margin-left: 5px;
+  background-color: #a186eb;
+  border-color: #a4edd7;
+  float: left;
+  position: fixed;
+}
+.admin-content-container {
+  width: calc(100vw - 260px);
+  height: 100vh;
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  background-color: #ffff;
+}
+.admin-navbar-container,
+.admin-sidebar-container,
+.admin-content-container,
+.navbar {
+  /* overide parent css class */
+  /* background-color: #a4edd7 !important; */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.admin-sidebar-container .admin-sidebar-content .admin-sidebar-brand-name {
+  color:#1bf7de;
+  /* border: 1px solid red; */
+  margin-top: 16px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.admin-sidebar-container
+  .admin-sidebar-content
+  .admin-sidebar-list-group-container {
+  margin-top: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.admin-sidebar-container
+  .admin-sidebar-content
+  .admin-sidebar-list-group-container
+  ul
+  li {
+  /* width: 200px; */
+  background-color: #a186eb;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.admin-sidebar-container
+  .admin-sidebar-content
+  .admin-sidebar-list-group-container
+  ul
+  li
+  a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffff;
+}
