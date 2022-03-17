@@ -2,3 +2,16 @@
   text-align: center;
 }
 
+.admin-content-container{
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: calc(100vw - 260px);
+  height: 100vh;
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  background-color: #ffff;
+}

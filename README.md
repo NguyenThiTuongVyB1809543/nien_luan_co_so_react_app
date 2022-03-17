@@ -20,4 +20,11 @@ git push -u origin main
 git remote add origin https://github.com/NguyenThiTuongVyB1809543/nien_luan_co_so_react_app.git
 git branch -M main
 git push -u origin main
+
+#Các bước commit code 
+git status 
+git add .
+git commit "viết gì dô"
+git push origin master
+
 ```

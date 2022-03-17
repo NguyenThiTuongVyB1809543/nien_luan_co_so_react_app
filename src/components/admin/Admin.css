@@ -25,7 +25,7 @@
   float: left;
   position: fixed;
 }
-.admin-content-container {
+/* .admin-content-container {
   width: calc(100vw - 260px);
   height: 100vh;
   position: relative;
@@ -35,7 +35,7 @@
   margin-right: 5px;
   overflow: hidden;
   background-color: #ffff;
-}
+} */
 .admin-navbar-container,
 .admin-sidebar-container,
 .admin-content-container,
@@ -47,7 +47,7 @@
 }
 
 .admin-sidebar-container .admin-sidebar-content .admin-sidebar-brand-name {
-  color:#1bf7de;
+  color: #1bf7de;
   /* border: 1px solid red; */
   margin-top: 16px;
   text-align: center;
